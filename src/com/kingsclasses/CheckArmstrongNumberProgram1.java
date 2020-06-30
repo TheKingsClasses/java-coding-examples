@@ -2,7 +2,7 @@ package com.kingsclasses;
 
 import java.util.Scanner;
 
-public class CheckArmstrongExample {
+public class CheckArmstrongNumberProgram1 {
 	public static void main(String args[]) {
 		int number, temp, result = 0, rem;
 		Scanner scanner = new Scanner(System.in);

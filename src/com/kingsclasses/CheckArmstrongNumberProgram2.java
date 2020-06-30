@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Raja Vishwakarma 
  * Java program to determine whether the number is Armstrong number or not.
  */
-public class CheckArmstrongNumberEx2 {
+public class CheckArmstrongNumberProgram2 {
 
 	/**
 	 * @param args
