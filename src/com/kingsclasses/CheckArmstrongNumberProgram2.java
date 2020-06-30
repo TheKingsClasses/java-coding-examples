@@ -18,9 +18,9 @@ public class CheckArmstrongNumberProgram2 {
 		scanner.close();
 		boolean isArmstrong = isArmstrong(number);
 		if (isArmstrong)
-			System.out.print(number + " is an Armstrong number.");
+			System.out.println(number + " is an Armstrong number.");
 		else
-			System.out.print(number + " is not an Armstrong number.");
+			System.out.println(number + " is not an Armstrong number.");
 	}
 
 	/*

@@ -4,20 +4,23 @@ import java.util.Scanner;
 
 public class CheckArmstrongNumberProgram1 {
 	public static void main(String args[]) {
-		int number, temp, result = 0, rem;
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter any Positive Number : ");
-		number = scanner.nextInt();
+		int number = scanner.nextInt();
 		scanner.close();
-		temp = number;
+
+		int temp = number;
+		int result = 0;
 		while (temp != 0) {
-			rem = temp % 10;
+			int rem = temp % 10;
 			result = result + rem * rem * rem;
 			temp = temp / 10;
 		}
-		if (result == number)
-			System.out.print("Armstrong Number");
-		else
-			System.out.print("Not an Armstrong Number");
+
+		if (result == number) {
+			System.out.println(number + " is an Armstrong number.");
+		} else {
+			System.out.println(number + " is not an Armstrong number.");
+		}
 	}
 }
