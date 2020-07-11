@@ -3,7 +3,7 @@ package com.kingsclasses;
 import java.util.Scanner;
 
 /**
- * @author Raja Vishwakarma 
+ * @author Raja Bhaiya Vishwakarma 
  * Java program to determine whether the number is Armstrong number or not.
  */
 public class CheckArmstrongNumberProgram2 {
